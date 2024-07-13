@@ -20,7 +20,7 @@ export function ToDoCard() {
       <div className="card">
         <ol className="card">
           {list.map((task, index) => (
-            <li className="todocell">
+            <li className="todocell" key={Math.random(index)}>
               <li className="todo" key={index}>
                 <span>{task}</span>
               </li>
