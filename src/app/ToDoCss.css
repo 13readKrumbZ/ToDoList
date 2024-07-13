@@ -1,0 +1,67 @@
+.back_ground {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(85, 76, 68);
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  padding: 150px;
+}
+
+.card {
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border-radius: 5px;
+  align-items: center;
+  padding: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgb(187, 127, 58);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2.5px;
+  margin-left: 5px;
+  width: 100px;
+}
+
+.tdbtn {
+  background-color: rgb(187, 127, 58);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2.5px;
+  margin-left: 20px;
+  width: 100px;
+}
+
+.note_input {
+  display: flex;
+  background-color: grey;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2.5px;
+  margin-left: 50px;
+}
+
+.todo {
+  background-color: rgb(169, 145, 118);
+  text-align: center;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2.5px;
+  width: 300px;
+}
+
+.todocell {
+  display: flex;
+  flex-direction: row;
+}
